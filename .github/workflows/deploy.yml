@@ -58,7 +58,7 @@ jobs:
 
       - name: Part 1.5
         run: |
-          ssh-keyscan -H $DEPLOY_HOST >> ~/.ssh/known_hosts 2>/dev/null
+          ssh-keyscan -H $DEPLOY_HOST >> ~/.ssh/known_hosts
 
       - name: Part 2
         run: |
